@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Створення форм за допомогою HTML</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="2" align="center">
+            <strong>Olga's cakes</strong>
+        </td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>
+            <form>
+                <input type="username" name="name" placeholder="Enter your name here">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Cake Topping</td>
+        <td>
+            <form>
+                <input type="radio" name="topping" value="Chocolate">Chocolate
+                <br>
+                <input type="radio" name="topping" value="Caramel">Caramel
+                <br>
+                <input type="radio" name="topping" value="Strawberry">Strawberry
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Filling</td>
+        <td> 
+            <select>
+            <option value="1">Berries</option>
+            <option value="2">Bananas</option>
+            <option value="3">Chocolate</option>
+            <option value="4">Cheese</option>
+            <option value="5">Cream</option>
+            </select> 
+        </td>
+    </tr>
+    <tr>
+        <td>Optional Extras</td>
+        <td>
+            <input type="checkbox" name="a">Extra Chocolate
+            <input type="checkbox" name="a">Gluten Free Base
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">Delivery Instructions:
+            <br/>
+            <textarea id="msg" name="user_message" placeholder="Type your text"></textarea> 
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"> 
+            <button type="submit">Send my Order</button>
+        </td>
+    </tr>
+</body>
+</html>
